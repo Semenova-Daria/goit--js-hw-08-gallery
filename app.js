@@ -121,7 +121,6 @@ function closeModal(evt) {
   if (evt.target.nodeName === 'BUTTON') {
     modalRef.classList.remove("is-open");
   }
-  return;
   toggleModal();
 }
 
