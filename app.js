@@ -122,6 +122,7 @@ function closeModal(evt) {
     modalRef.classList.remove("is-open");
   }
   return;
+  toggleModal();
 }
 
 function toggleModal() {
